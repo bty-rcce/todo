@@ -91,6 +91,7 @@ let editTask = (e) => {
     textarea.value = selectedTask.children[2].innerHTML        
 };
 
+// This code block gets local data related to this web app
 (() => {
     data = JSON.parse(localStorage.getItem("data")) || [];
     console.log(data);
